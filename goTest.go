@@ -7,3 +7,8 @@ type Mensagem struct {
 	Anterior           rune
 	Comando            rune
 }
+
+type Client struct {
+	Id         int
+	PosX, posY int
+}
