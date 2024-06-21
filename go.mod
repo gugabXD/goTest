@@ -1,3 +1,3 @@
-module github.com/gugabXD/goTest
+module goTest
 
 go 1.22.2
