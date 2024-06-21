@@ -5,4 +5,5 @@ type Mensagem struct {
 	NovaPosX, NovaPosY int
 	PosX, PosY         int
 	Anterior           rune
+	Comando            rune
 }
