@@ -10,5 +10,5 @@ type Mensagem struct {
 
 type Client struct {
 	Id         int
-	PosX, posY int
+	PosX, PosY int
 }
