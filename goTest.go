@@ -16,9 +16,9 @@ type Client struct {
 }
 
 type Elemento struct {
-	simbolo     rune
-	cor         termbox.Attribute
-	corFundo    termbox.Attribute
-	tangivel    bool
-	interagivel bool
+	Simbolo     rune
+	Cor         termbox.Attribute
+	CorFundo    termbox.Attribute
+	Tangivel    bool
+	Interagivel bool
 }
