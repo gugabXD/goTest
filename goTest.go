@@ -3,7 +3,7 @@ package goTest
 type Mensagem struct {
 	IdClient       int
 	Comando        rune
-	sequenceNumber int
+	SequenceNumber int
 }
 
 type Client struct {
