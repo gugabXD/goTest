@@ -15,8 +15,6 @@ type Client struct {
 	SequenceNumber int
 	Montado        bool
 	Key            bool
-	StatusMsg      string
-	GameOver       bool
 }
 
 type Elemento struct {
@@ -25,4 +23,11 @@ type Elemento struct {
 	CorFundo    termbox.Attribute
 	Tangivel    bool
 	Interagivel bool
+}
+
+type GameState struct {
+	Mapa     [][]Elemento
+	Msg      string
+	GameOver bool
+	Win      bool
 }
