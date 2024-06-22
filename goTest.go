@@ -15,6 +15,7 @@ type Client struct {
 	SequenceNumber int
 	Montado        bool
 	Key            bool
+	Estado         GameState
 }
 
 type Elemento struct {
