@@ -2,4 +2,6 @@ module github.com/gugabXD/goTest
 
 go 1.22.2
 
-replace github.com/gugabXD/goTest => C:\Users\User\Desktop\goTest\goTest\goTest.go
+require github.com/nsf/termbox-go v1.1.1
+
+require github.com/mattn/go-runewidth v0.0.9 // indirect
