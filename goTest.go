@@ -11,7 +11,7 @@ type Mensagem struct {
 type Client struct {
 	Id             int
 	PosX, PosY     int
-	Anterior       rune
+	Anterior       Elemento
 	SequenceNumber int
 }
 
