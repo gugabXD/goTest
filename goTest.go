@@ -6,7 +6,6 @@ type Mensagem struct {
 	IdClient       int
 	Comando        rune
 	SequenceNumber int
-	StatusMsg      string
 }
 
 type Client struct {
@@ -16,6 +15,8 @@ type Client struct {
 	SequenceNumber int
 	Montado        bool
 	Key            bool
+	StatusMsg      string
+	GameOver       bool
 }
 
 type Elemento struct {
